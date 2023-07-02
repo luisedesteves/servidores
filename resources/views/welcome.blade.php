@@ -13,13 +13,61 @@
         
         <!-- <div class="bg-success text-white p-2 px-5 align-self-end">end</div> -->
     </div>
-    <div class="d-flex" style="height: 6rem;">
-        <div class="p-4"><img src="storage/img/sol1.png" alt="" style="height: 50px;"></div>
+        <!-- aca ponemos el menu -->
+        <nav class="navbar navbar-expand-lg navbar-primary bg-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <a class="navbar-brand" href="#">
+                            <img src="storage/img/logosol.png" alt="" height="60">
+                            
+
+                        </a>
+                    </div>
+                    <div class="col align-self-center">
+                        <h2>SOLARUM</h2>
+                    </div>
+                </div>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mi-menu" >
+                    <span class="navbar-toggler-icon"></span>
+    
+                </button>
+                <div class="">
+                    <div class="collapse navbar-collapse" id="mi-menu">
+        
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link  disabled" href="#">Home</a>
+                            </li>
+        
+                            <li class="nav-item">
+                                <a class="nav-link" href="segundo.html">Servicios</a>
+        
+                            </li>
+        
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Preguntas Frecuentes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contactos</a>
+                            </li>
+        
+                        </ul>
+        
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+    <!-- <div class="d-flex" style="height: 6rem;">
+        <div class="p-4"><img src="img/sol2.jpg" alt="" style="height: 80px;"></div>
         <div class=" p-4  border-top"><h2>Solarum</h2>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. At et est expedita laudantium illum architecto cumque sed</div>
-        <!-- <div class="bg-success bg-opacity-50 p-4 me-4 border-bottom">border-end</div> -->
+        <div class="bg-success bg-opacity-50 p-4 me-4 border-bottom">border-end</div> 
 
-    </div>
+    </div> -->
     <div class="row" style="height: 12rem;">
         <div class="col-5">
         <!-- <div class="col-5 border border-primary border-2">     -->
